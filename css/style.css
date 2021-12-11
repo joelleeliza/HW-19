@@ -1,0 +1,197 @@
+body {
+font-family: 'Jost', sans-serif;
+}
+.logo {
+    width: 121px;
+}
+.logo img, .morearrow img, .footerlogo img {
+    width: 100%;
+    height:auto;
+}
+header, .hero, .footer {
+    max-width:1000px;
+    margin:1em auto;
+}
+nav ul {
+    display:flex;
+    margin-right:2em;
+}
+nav ul li {
+    list-style-type:none;
+    padding-left:30px;
+}
+nav ul li a {
+    color:#B5B5B5;
+    text-decoration:none;
+}
+.active {
+    font-weight:700;
+    border-bottom:thick white solid;
+    padding-bottom:3px;
+    color:white;
+}
+header {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.name {
+    font-family: 'Rozha One', serif;
+    font-size: 110px;
+    line-height: 79px;
+    color: #303030;
+}
+.background {
+    min-height: 735px;
+    margin: 1em auto;
+    max-width: 1000px;
+    background-position-x: -38px;
+    background-position-y: -117px;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+}
+.intro {
+    max-width:548px;
+    margin-top:50px;
+}
+.more {
+    text-transform: uppercase;
+}
+.morearrow {
+    display: inline-block;
+    margin-left: 5px;
+    max-width: 41px;
+}
+.introname {
+    background-image:url(../images/swirly.png);
+    background-repeat: no-repeat;
+    background-size: 450px;
+    min-height: 263px;
+}
+.hero {
+    display:flex;
+}
+.handpic {
+    max-height: 755px;
+    overflow: hidden;
+}
+.footer {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.footerline {
+border-color:#D82F30;
+margin-top: 4em;
+max-width: 960px;
+}
+.footerlogo {
+    max-width: 166px;
+}
+.contactinfo, .social, .location, .email {
+    display:flex;
+}
+.contactinfo, .social {
+    justify-content:flex-end;
+}
+.footercontact {
+    min-width:60%;
+}
+.footertext {
+    padding-right:1em;
+}
+.footericon {
+    padding-right: 10px;
+}
+.title {
+    font-family: 'Rozha One', serif;
+    font-size: 80px;
+    color: #303030;
+    margin: 1em auto;
+    text-align: center; 
+}
+.skillcards > div {
+    background-color:#fafafa;
+    box-shadow: 4px 6px 14px -7px rgba(0,0,0,0.51);
+    -webkit-box-shadow: 4px 6px 14px -7px rgba(0,0,0,0.51);
+    -moz-box-shadow: 4px 6px 14px -7px rgba(0,0,0,0.51);
+    list-style-type: none; 
+    padding: 50px;
+    margin: 0 0 3em 0;
+}
+.skillcards {
+    display:flex;
+    justify-content:space-evenly;
+}
+.skills, .work {
+    max-width:1000px;
+    margin: 1em auto;
+}
+.gridcontainer {
+    display:grid;
+    grid-template-columns: 30%  30% 30%;
+    grid-template-areas: "gridcard1 gridcard2 gridcard3";
+    grid-column-gap: 5%;
+}
+.gridcard1 {
+    grid-area: gridcard1;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+}
+.gridcard2 {
+    grid-area: gridcard2;
+    display:flex;
+    justify-content:center;
+    margin-top: 40px;
+    flex-direction: column;
+}
+.gridcard3 {
+    grid-area: gridcard3;
+    display:flex;
+    justify-content:center;
+    margin-top: 80px;
+    flex-direction: column;
+}
+.gridimage1 {
+    background-image: url(../images/projectsafe.png);
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 280px;
+    background-size: cover;
+        background-color:#fafafa;
+        box-shadow: 4px 6px 14px -7px rgba(0,0,0,0.51);
+        -webkit-box-shadow: 4px 6px 14px -7px rgba(0,0,0,0.51);
+        -moz-box-shadow: 4px 6px 14px -7px rgba(0,0,0,0.51);
+        list-style-type: none; 
+        padding: 20px;
+        margin: 0 0 3em 0;
+}
+.gridimage2 {
+    background-image: url(../images/nps.png);
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 280px;
+    background-size: cover;
+        background-color:#fafafa;
+        box-shadow: 4px 6px 14px -7px rgba(0,0,0,0.51);
+        -webkit-box-shadow: 4px 6px 14px -7px rgba(0,0,0,0.51);
+        -moz-box-shadow: 4px 6px 14px -7px rgba(0,0,0,0.51);
+        list-style-type: none; 
+        padding: 20px;
+        margin: 0 0 3em 0;
+}
+.gridimage3 {
+    background-image: url(../images/pawpup.png);
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 280px;
+    background-size: cover;
+        background-color:#fafafa;
+        box-shadow: 4px 6px 14px -7px rgba(0,0,0,0.51);
+        -webkit-box-shadow: 4px 6px 14px -7px rgba(0,0,0,0.51);
+        -moz-box-shadow: 4px 6px 14px -7px rgba(0,0,0,0.51);
+        list-style-type: none; 
+        padding: 20px;
+        margin: 0 0 3em 0;
+}
